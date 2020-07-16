@@ -18,6 +18,8 @@ import personal.qasutils.view.FadeImageView;
 /**
  * 作者：qaszxcwer
  * 日期：2020/7/16
+ *
+ * 渐变图片控件使用方法
  */
 public class FadeImageUsageActivity extends Activity {
     FadeImageView fadeImageView;

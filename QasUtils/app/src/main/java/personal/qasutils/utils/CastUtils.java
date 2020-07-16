@@ -7,7 +7,6 @@ package personal.qasutils.utils;
  * 强制转化工具类
  */
 public class CastUtils {
-    // TODO 测试这玩意
     public static <T extends Object> T cast(Object object, Class<T> clazz) {
         if (object != null) {
             try {

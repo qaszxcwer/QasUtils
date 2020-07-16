@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@null">
 
     <Button
         android:id="@+id/btnImage1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="展示图1"/>
+        android:text="展示图1" />
 
     <Button
         android:id="@+id/btnImage2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="展示图2"/>
+        android:text="展示图2" />
 
     <Button
         android:id="@+id/btnImage3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="展示无背景"/>
+        android:text="展示无背景" />
 
     <personal.qasutils.view.FadeImageView
         android:id="@+id/fadeImg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent" />
 
 </LinearLayout>
