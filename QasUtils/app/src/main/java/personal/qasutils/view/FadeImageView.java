@@ -1,6 +1,7 @@
 package personal.qasutils.view;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -56,7 +57,9 @@ public class FadeImageView extends FrameLayout {
         inflater.inflate(R.layout.fade_image_view, this);
         oldPic = ViewUtils.findViewById(getRootView(), R.id.imgOldPic);
         newPic = ViewUtils.findViewById(this, R.id.imgNewPic);
-        // 一转眼都要睡觉了，先弄个背景图在这，后面有空再写
-        oldPic.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+    }
+
+    public void loadPic(Drawable newPicDrawable) {
+        this.setBackground(newPicDrawable);
     }
 }
