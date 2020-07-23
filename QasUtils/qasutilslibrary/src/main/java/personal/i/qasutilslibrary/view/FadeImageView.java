@@ -1,4 +1,4 @@
-package personal.qasutils.view;
+package personal.i.qasutilslibrary.view;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -14,9 +14,9 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
-import personal.qasutils.R;
-import personal.qasutils.utils.CastUtils;
-import personal.qasutils.utils.ViewUtils;
+import personal.i.qasutilslibrary.R;
+import personal.i.qasutilslibrary.utils.CastUtils;
+import personal.i.qasutilslibrary.utils.ViewUtils;
 
 /**
  * 作者：qaszxcwer

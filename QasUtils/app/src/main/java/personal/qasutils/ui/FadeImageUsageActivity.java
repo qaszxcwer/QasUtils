@@ -12,8 +12,8 @@ import com.bumptech.glide.request.transition.Transition;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import personal.i.qasutilslibrary.view.FadeImageView;
 import personal.qasutils.R;
-import personal.qasutils.view.FadeImageView;
 
 /**
  * 作者：qaszxcwer

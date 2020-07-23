@@ -1,2 +1,3 @@
 rootProject.name='QasUtils'
 include ':app'
+include ':qasutilslibrary'

@@ -1,4 +1,4 @@
-package personal.qasutils.utils;
+package personal.i.qasutilslibrary.utils;
 
 /**
  * 作者：qaszxcwer

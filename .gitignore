@@ -1,3 +1,5 @@
 QasUtils/.idea/
 QasUtils/app/src/androidTest/
 QasUtils/app/src/test/
+QasUtils/qasutilslibrary/src/androidTest/
+QasUtils/qasutilslibrary/src/test/
