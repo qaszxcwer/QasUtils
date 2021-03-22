@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.FadeImageUsageActivity"/>
+        <activity android:name=".ui.GetPicColorViewUsage"/>
     </application>
 
 </manifest>
